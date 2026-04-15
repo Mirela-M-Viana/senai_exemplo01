@@ -16,4 +16,4 @@ jobs:
           checkName: Develop
           
       - name: Executar Teste
-        run: flakes8 .
+        run: flake8 .
